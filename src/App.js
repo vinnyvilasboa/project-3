@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import { Route } from "react-router-dom";
+
+//====================IMPORTS====================//
+import Rocket from './pages/Rocket'
+import Satellite from './pages/Satellite'
+import Tracker from './pages/Tracker'
+import Nav from './components/Nav'
+
+//==================STYLING======================//
 import './App.css';
 
 function App() {
+//variables would go here (useSate)
+// data fetch would here 
+
+/*
+Set up components
+Set up Routes
+*/
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1>SPACEX PROJECT</h1>
     </div>
   );
 }
